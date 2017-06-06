@@ -40,9 +40,8 @@ int main(void) {
 	P2OUT |= BIT0;
 	P3OUT &= ~BIT5;
 	P3OUT |= BIT7;
-	for (i = 0; i < 1000; i++)
-		;
 
+	for (i = 0; i < 1000; i++);
 //
 	while (1 != 0)
 	{
